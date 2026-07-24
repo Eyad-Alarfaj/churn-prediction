@@ -2,7 +2,7 @@
 
 **An end-to-end machine learning project that predicts which telecom customers are about to cancel — and explains why.**
 
-Live dashboard: *(add your Streamlit Cloud URL here after deploying)*
+Live dashboard: **https://eyad-churn.streamlit.app**
 
 ---
 

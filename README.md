@@ -36,12 +36,17 @@ Plain English: **new, month-to-month, fiber-optic customers paying by electronic
 
 ## Screenshots
 
-*(Take these once you run the app locally and drop them here.)*
+Live dashboard at **https://eyad-churn.streamlit.app** — enter a customer profile in the sidebar and get an instant churn-risk score with per-prediction SHAP drivers.
 
-- `docs/dashboard_input.png` — the sidebar input form
-- `docs/dashboard_result.png` — the risk score + SHAP explanation
+**Input form** — customer attributes in the sidebar:
 
-Global SHAP summary already generated:
+![Dashboard input form](docs/dashboard_input.png)
+
+**Prediction + explanation** — risk score, and the SHAP factors pushing churn up vs. down for this specific customer:
+
+![Prediction result with SHAP](docs/dashboard_result.png)
+
+Global SHAP summary across the whole dataset:
 
 ![SHAP summary](models/shap_summary.png)
 
